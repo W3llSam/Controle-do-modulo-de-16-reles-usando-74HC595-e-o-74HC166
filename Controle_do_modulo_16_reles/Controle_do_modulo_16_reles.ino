@@ -101,7 +101,7 @@
   Se caso quiser usar as portas de 8 a 13 do Arduino é so mudar desse jeito:
    
    DDRD vira DDRB.
-   PORTD vira PORTD.
+   PORTD vira PORTB.
    PIND vira PINB.
 
   Lembrando que os pinos irão mudar de numeração ficando assim:
