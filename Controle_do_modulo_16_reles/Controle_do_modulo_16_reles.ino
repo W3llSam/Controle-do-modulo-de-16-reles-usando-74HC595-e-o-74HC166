@@ -161,7 +161,7 @@ void setup() {
 
  while(1) { /* Cria um loop infinito */
 
-  Ci_entrada(); /* Lê a entrada do ci 74HC595 e guarda na variavel " Entrada " */
+  Ci_entrada(); /* Lê a entrada do ci 74HC166 e guarda na variavel " Entrada " */
   Separacao_bytes(); /* Separa byte a byte da variavel " Entrada " */
   Controle(); /* Faz o controle de debounce dos botões */
   Ci_saida(); /* Manda os dados para o ci 74HC595 */
